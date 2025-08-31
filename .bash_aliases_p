@@ -1,0 +1,114 @@
+#git log decorate
+alias gld='git log --oneline --decorate';
+
+#git log stat
+alias glogs='git log --stat --decorate';
+
+#git diff staged
+alias gds='git diff --staged';
+
+#bin dir
+alias bin='cd /home/eantfia/bin';
+
+#git log
+alias glog='git log --decorate';
+alias glog1='git log --oneline --decorate';
+
+#git commit
+alias gc='git commit';
+
+#git status
+alias gs='git status';
+
+#git add 
+alias gadd='git add';
+
+# ggrep
+alias ggrep='python3 ~/bin/ggrep.py';
+
+#git commit --amend
+alias gca='git commit --amend';
+
+#gmvworking
+alias gmvworking='echo temp && glog temp | head -1 | cat ; gb -f temp working && gb -f working HEAD && go working && echo Done';
+
+#git head commit
+alias ghead='sh ~/bin/ghead.sh';
+
+#egrep colored
+alias egrepc='egrep --color=always';
+
+#replace- Usage: echo verde roja | repl
+alias repl='/home/eantfia/bin/repl.sh';
+
+#top commit
+alias gtop='git log --oneline | head -1';
+
+#find open- Usage: findo test.c
+alias findo='sh /home/eantfia/bin/find_open.sh';
+
+#tmps
+alias tmp='cd /home/eantfia/tmp'
+alias tmpclean='rm -rf /home/eantfia/tmp/*';
+
+#git checkout to head
+alias gdetach='/home/eantfia/bin/gdetach.sh';
+
+#rmwh
+alias rmwh='sh /home/eantfia/bin/rmwh.sh';
+
+#colort
+alias colort='sh /home/eantfia/bin/colort.sh';
+
+#fields
+alias fields='python3 ~/bin/fieldExtract.py';
+
+#mergelines
+alias mergelines='python3 ~/bin/mergelines.py';
+
+#branch gen
+alias gbgen='~/bin/gbgen.sh';
+
+#git greps 
+alias gg='git grep --color=always';
+
+#git grep accoss submodules (git ver: 'module add git/2.12.0') 
+alias ggsub='git grep --recurse-submodules';
+
+#git status -uno
+alias gs1='git status -uno';
+
+#quickfind
+alias qf='python3 ~/bin/quickFind.py';
+
+#gpull
+alias gpull='git pull -r'
+
+#llt
+alias llt='ls -lth'
+
+#git restore
+alias gr='git restore'
+
+#git restore staged
+alias grs='git restore --staged'
+
+#profile
+alias profile='sh ~/bin/profile.sh'
+
+#fslice
+alias fslice='sh ~/bin/fslice.sh'
+
+#gitlogfiles
+alias glogfiles='python3 ~/bin/glogfiles.py'
+
+#Git get file
+alias ggetfile='sh ~/bin/ggetfile.sh'
+
+# git cherry-pick
+alias gcp='git cherry-pick'
+
+# git tag w1
+alias gtag='sh ~/bin/gtag.sh'
+
+
