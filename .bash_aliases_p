@@ -17,6 +17,9 @@ alias glog1='git log --oneline --decorate';
 #git commit
 alias gc='git commit';
 
+#git diff
+alias gd='git diff';
+
 #git status
 alias gs='git status';
 
