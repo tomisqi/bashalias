@@ -88,7 +88,7 @@ alias qf='python3 ~/bin/quickFind.py';
 alias gpull='git pull -r'
 
 #llt
-alias llt='ls -lth'
+alias llt='ls -ltha'
 
 #git restore
 alias gr='git restore'
