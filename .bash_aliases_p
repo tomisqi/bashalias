@@ -90,6 +90,9 @@ alias gpull='git pull -r'
 #llt
 alias llt='ls -ltha'
 
+#llt most recent 10 files
+alias llt10='ls -ltha | head -10'
+
 #git restore
 alias gr='git restore'
 
